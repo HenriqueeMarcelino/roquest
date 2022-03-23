@@ -1,0 +1,23 @@
+{
+    "name": "roquest/checker",
+    "type": "library",
+    "description": "Account Checker Maker",
+    "keywords": ["log","logging"],
+    "homepage": "https://github.com/HenriqueeMarcelino/roquest",
+    "license": "ROOT",
+    "authors": [
+        {
+            "name": "Henrique Marcelino",
+            "email": "henriqueslither@icloud.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
+    }
+}
