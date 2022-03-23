@@ -1,4 +1,18 @@
-# roquest
+Rooquest Checker Acc
+================
+
+This repository holds all interfaces/classes/traits related to
+[PSR-7](http://www.php-fig.org/psr/psr-7/).
+
+Note that this is not a HTTP message implementation of its own. It is merely an
+interface that describes a HTTP message. See the specification for more details.
+
+Usage
+-----
+
+Before reading the usage guide we recommend reading the PSR-7 interfaces method list:
+
+* [`# roquest
 `$checker = new roquest();`
 `$lista = "email@email.com:password"; //value`
 `$conta = $checker->separarLista(array(':','|'),$lista); //multiexplode`
@@ -38,3 +52,5 @@ if($validar == 0){
     echo "ERROR! $email:$senha -> Usuário ou senha incorretos";
 }
 `
+`]
+* [`PSR-7 Usage Guide`]
