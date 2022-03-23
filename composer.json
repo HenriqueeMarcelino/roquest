@@ -19,9 +19,10 @@
             "Monolog": "src"
         }
     }
-}
- "extra": {
+     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }
     }
+}
+
