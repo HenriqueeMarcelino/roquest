@@ -4,6 +4,7 @@
     "description": "Account Checker Maker",
     "keywords": ["log","logging"],
     "homepage": "https://github.com/HenriqueeMarcelino/roquest",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Henrique Marcelino",
