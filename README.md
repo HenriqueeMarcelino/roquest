@@ -18,6 +18,8 @@ Usage
 
 Usage example below
 
+```php
+<?php
 $checker = new roquest();
 $lista = "email@email.com:password"; //value
 $conta = $checker->separarLista(array(':','|'),$lista); //multiexplode
@@ -57,4 +59,4 @@ if($validar == 0){
     echo "ERROR! $email:$senha -> Usuário ou senha incorretos";
 }
 
-]
+]```
